@@ -14,14 +14,14 @@ with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='backtrader_binance',
-      version='1.0.1',
-      author='wiseplat',
-      author_email='oshpagin@gmail.com',
+      version='1.0.2',
+      author='xmobe',
+      author_email='quanganh@xmobe.com',
       license='MIT License',
       description='Binance API integration with Backtrader',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      url='https://github.com/WISEPLAT/backtrader_binance',
+      url='https://github.com/xmobe/backtrader_binance',
       packages=find_packages(exclude=['docs', 'examples', 'ConfigBinance']),
       install_requires=['python-binance', 'pandas', 'matplotlib'],
       classifiers=[
@@ -47,7 +47,7 @@ setup(name='backtrader_binance',
       ],
       keywords=['trading', 'development'],
       project_urls={
-          'Documentation': 'https://github.com/WISEPLAT/backtrader_binance/blob/master/README.md'
+          'Documentation': 'https://github.com/xmobe/backtrader_binance/blob/master/README.md'
       },
       python_requires='>=3.7'
       )
